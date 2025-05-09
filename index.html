@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-weidth, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+    <title>Yuliaproeng</title>
+    <link href="bootstrap-5.3.5-dist/css/bootstrap.min.css">
+</head>
+
+<body link="black" alink="white" vlink="black">
+    <div class="content_h1">
+
+        <div class="button_h1">
+            <h1>ENGLISH TEACHER</h1>
+        </div>
+
+        <div class="button_menu">
+            <a href="second.html">
+                Обо мне
+            </a>
+        </div>
+
+        <div class="button_menu">
+            <a href="second.html">
+                Моя работа
+            </a>
+        </div>
+
+        <div class="button_menu">
+            <a href="third.html">
+                Отзывы
+            </a>
+        </div>
+
+        <div class="button_menu">
+            <a href="second.html">
+                Стоимость и курсы
+            </a>
+        </div>
+
+        <div class="button_menu">
+            <a href="third.html">
+                Вопросы и ответы
+            </a>
+        </div>
+    </div>
+    <div class="content">
+        <ol>
+            <div class="text_1">
+                <p>Привет!</p>
+                <p>Меня зовут Юля и уже 9 лет я помогаю людям заговорить на английском!</p>
+                <p>Присоединяйся! Будем покорять английский вместе!</p>
+            </div>
+
+            <div class="text_2">
+                <p>Для тех, кто хочет:</p>
+                <li>свободно разговаривать на английском</li>
+                <li>расширить свои карьерные возможности</li>
+                <li>путешествовать без языковых ограничений</li>
+                <li>быть развитым и уверенным в себе человеком</li>
+            </div>
+
+            <div class="button_sg">
+                Записаться
+            </div>
+            <!-- ссылка не привязана к кнопке -->
+        </ol>
+        <div class="image">
+            <img src="first_image.png" height="600" width="420">
+        </div>
+    </div>
+
+    <footer>
+        <h2>ОБРАТНАЯ СВЯЗЬ</h2>
+        <form onsubmit="return validateForm()">
+            <label for="name">Имя:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="comment">Комментарий:</label><br>
+            <textarea id="comment" name="comment" required></textarea><br><br>
+
+            <input type="submit" value="Отправить">
+        </form>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
