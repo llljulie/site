@@ -219,11 +219,3 @@ input {
     margin: 15px 0 15px 20px;
 }
 
-@media (max-width: 600px) {
-            header, footer {
-                font-size: 14px;
-            }
-            main {
-                padding: 10px;
-            }
-        }
