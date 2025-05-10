@@ -219,3 +219,19 @@ input {
     margin: 15px 0 15px 20px;
 }
 
+.hero h1 {
+            font-size: 52px;
+            font-weight: 300;
+            margin-bottom: 50px;
+            letter-spacing: 5px;
+        }
+
+@media (max-width: 768px) {
+            .hero h1 {
+                font-size: 32px;
+            }
+
+            nav ul li {
+                margin-left: 15px;
+            }
+        }
